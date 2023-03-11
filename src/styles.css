@@ -1,0 +1,14 @@
+body {
+    background: #212121;
+}
+
+.checkbox:checked::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(255, 84, 17);
+    padding: 5px;
+    border-radius: 5px;
+}
